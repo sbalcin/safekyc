@@ -1,0 +1,13 @@
+// User Actions
+export const SHOW_SIGN_IN_PROGRESS = "SHOW_SIGN_IN_PROGRESS";
+export const SHOW_SIGN_UP_PROGRESS = "SHOW_SIGN_UP_PROGRESS";
+export const USER_SIGNED_IN = "USER_SIGNED_IN";
+export const USER_SIGNED_UP = "USER_SIGNED_UP";
+export const USER_SIGN_IN_ERROR = "USER_SIGN_IN_ERROR";
+export const USER_SIGN_UP_ERROR = "USER_SIGN_UP_ERROR";
+export const USER_SIGNED_OUT = "USER_SIGNED_OUT";
+export const USER_SIGN_OUT_ERROR = "USER_SIGN_OUT_ERROR";
+
+// Header Actions
+export const HEADER_SIGN_UP_CLICKED = "HEADER_SIGN_UP_CLICKED";
+
