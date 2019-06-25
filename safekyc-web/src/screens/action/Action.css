@@ -1,0 +1,66 @@
+.task-main-container {
+    min-height: calc(100vh - 130px);
+    max-width: 1100px;
+    padding: 100px 30px 30px 30px;
+    margin: auto;
+}
+
+.countDown {
+    text-align: center;
+
+}
+
+.dep-option {
+    display: flex !important;
+    margin-left:50%;
+}
+
+.flex-container {
+    display: flow;
+}
+
+.fade-enter {
+    background-color: #4caf50;
+    opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 100ms ease-in;
+    background-color: #FF8800;
+}
+
+.fade-leave {
+    background-color: transparent;
+    opacity: 1;
+}
+
+.fade-leave.fade-leave-active {
+    background-color: #4caf50;
+    opacity: 0.01;
+    transition: opacity 400ms ease-in;
+}
+
+.fade-appear {
+    opacity: 0.01;
+}
+
+.fade-appear.fade-appear-active {
+    opacity: 1;
+    transition: opacity .5s ease-in;
+}
+
+.tableActionAccept {
+    position: absolute;
+    cursor: pointer;
+    font-size: 2em;
+    color: #4caf50;
+    padding-right: 30px;
+}
+
+.tableActionReject {
+    position: absolute;
+    cursor: pointer;
+    font-size: 2em;
+    color: #F80;
+}

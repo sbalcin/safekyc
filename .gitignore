@@ -1,0 +1,28 @@
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+/out/
+
+
+/safekyc-server/.idea
+/safekyc-server/target
+/safekyc-server/safekyc.iml
+
+/safekyc-web/.idea
+/safekyc-web/node_modules
+
+/extended/.idea
+/extended/target
+/extended/safekyc.iml
