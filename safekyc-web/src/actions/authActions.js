@@ -23,6 +23,7 @@ export function signIn(email, password) {
             } else{
                 window.localStorage.setItem('userKey', email);
                 window.localStorage.setItem('token', response.user);
+                window.localStorage.setItem('tokenExpire', new Date().getTime() + (1000 * 60 * 60));
                 return dispatch({
                     type: types.USER_SIGNED_IN,
                     payload: response.user

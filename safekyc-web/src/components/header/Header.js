@@ -51,17 +51,23 @@ class Header extends React.Component {
 
     checkSessionIsActive() {
         try {
-            if ((parseFloat(user.stsTokenManager.expirationTime) < parseFloat(new Date()))) {
+            /*if ((parseFloat(user.stsTokenManager.expirationTime) < parseFloat(new Date()))) {
                 window.localStorage.setItem('message', 'Session expired');
                 this.onSignOutClicked();
+            }*/
+            if (window.localStorage.getItem('token') && parseFloat(window.localStorage.getItem('tokenExpire')) < new Date().getTime()) {
+                window.localStorage.setItem('message', 'Session expired');
+                window.localStorage.removeItem('token');
+                this.onSignOutClicked();
             }
+
         } catch (error) {
             console.log(error);
         }
     }
 
     render() {
-
+        this.checkSessionIsActive();
         if (this.state.redirectToHome) {
             this.setState({redirectToHome: false});
             window.location.reload();
@@ -87,7 +93,7 @@ class Header extends React.Component {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
 
                     <ul className="navbar-nav mr-auto">
-                        <li className="nav-item"><a className="nav-link" href="/">Safe KYC</a></li>
+                        <li className="nav-item"><a className="nav-link" href="/action">Safe KYC</a></li>
                         <li className="nav-item"><a className="nav-link" href="/about-us">About Us</a></li>
                         <li className="nav-item"><a className="nav-link" href="/about-us">Services</a></li>
                         <li className="nav-item"><a className="nav-link" href="/contact-us">Contact</a></li>

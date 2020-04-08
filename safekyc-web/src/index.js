@@ -55,7 +55,7 @@ function auth(name) {
 
 function checkMessageRequire() {
     try {
-        if (window.location.href.indexOf('task') >= 0)
+        if (window.location.href.indexOf('action') >= 0)
             window.localStorage.setItem('message', 'Please log in or sign up to continue');
     } catch (err) {
         console.error(err);

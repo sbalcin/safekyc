@@ -46,7 +46,7 @@ public class User extends DateAudit {
     @Column(name = "phone")
     private String phone;
 
-    @Column(name = "nationality")
+    @Column(name = "nati`onality")
     private String nationality;
 
     @Column(name = "clientIp")
