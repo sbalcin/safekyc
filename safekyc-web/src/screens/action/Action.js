@@ -15,9 +15,13 @@ import Popup from 'reactjs-popup'
 import moment from "moment/moment";
 import CSSTransitionGroup from "react-transition-group/CSSTransitionGroup";
 import CountDown from 'reactjs-countdown';
+<<<<<<< HEAD
 import QrReader from 'react-qr-reader';
 import adapter from 'webrtc-adapter';
 
+=======
+import QrReader from 'react-qr-reader'
+>>>>>>> fdb9163e536ed3ca9a5322ce24c08445b802f623
 
 
 

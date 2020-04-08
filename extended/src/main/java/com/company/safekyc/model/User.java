@@ -46,7 +46,11 @@ public class User extends DateAudit {
     @Column(name = "phone")
     private String phone;
 
+<<<<<<< HEAD
     @Column(name = "nati`onality")
+=======
+    @Column(name = "nationality")
+>>>>>>> fdb9163e536ed3ca9a5322ce24c08445b802f623
     private String nationality;
 
     @Column(name = "clientIp")

@@ -44,4 +44,21 @@ to any application server like Tomcat, Jetty, Nginx etc.<br>
 
 Here is some screenshots from applications..
 
+<<<<<<< HEAD
 
+=======
+![alt text](https://github.com/sbalcin/safekyc/blob/master/screenshot/Screen%20Shot%202019-06-25%20at%2014.34.53.png)
+<br>
+
+![alt text](https://github.com/sbalcin/safekyc/blob/master/screenshot/Screen%20Shot%202019-06-25%20at%2016.17.23.png)
+<br>
+
+![alt text](https://github.com/sbalcin/safekyc/blob/master/screenshot/Screen%20Shot%202019-06-25%20at%2014.37.51.png)
+<br>
+
+![alt text](https://github.com/sbalcin/safekyc/blob/master/screenshot/Screen%20Shot%202019-06-25%20at%2014.38.24.png)
+<br>
+
+![alt text](https://github.com/sbalcin/safekyc/blob/master/screenshot/Screen%20Shot%202019-06-25%20at%2014.44.46.png)
+<br>
+>>>>>>> fdb9163e536ed3ca9a5322ce24c08445b802f623

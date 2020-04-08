@@ -55,7 +55,11 @@ function auth(name) {
 
 function checkMessageRequire() {
     try {
+<<<<<<< HEAD
         if (window.location.href.indexOf('action') >= 0)
+=======
+        if (window.location.href.indexOf('task') >= 0)
+>>>>>>> fdb9163e536ed3ca9a5322ce24c08445b802f623
             window.localStorage.setItem('message', 'Please log in or sign up to continue');
     } catch (err) {
         console.error(err);

@@ -51,6 +51,7 @@ class Header extends React.Component {
 
     checkSessionIsActive() {
         try {
+<<<<<<< HEAD
             /*if ((parseFloat(user.stsTokenManager.expirationTime) < parseFloat(new Date()))) {
                 window.localStorage.setItem('message', 'Session expired');
                 this.onSignOutClicked();
@@ -61,13 +62,23 @@ class Header extends React.Component {
                 this.onSignOutClicked();
             }
 
+=======
+            if ((parseFloat(user.stsTokenManager.expirationTime) < parseFloat(new Date()))) {
+                window.localStorage.setItem('message', 'Session expired');
+                this.onSignOutClicked();
+            }
+>>>>>>> fdb9163e536ed3ca9a5322ce24c08445b802f623
         } catch (error) {
             console.log(error);
         }
     }
 
     render() {
+<<<<<<< HEAD
         this.checkSessionIsActive();
+=======
+
+>>>>>>> fdb9163e536ed3ca9a5322ce24c08445b802f623
         if (this.state.redirectToHome) {
             this.setState({redirectToHome: false});
             window.location.reload();
@@ -93,7 +104,11 @@ class Header extends React.Component {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
 
                     <ul className="navbar-nav mr-auto">
+<<<<<<< HEAD
                         <li className="nav-item"><a className="nav-link" href="/action">Safe KYC</a></li>
+=======
+                        <li className="nav-item"><a className="nav-link" href="/">Safe KYC</a></li>
+>>>>>>> fdb9163e536ed3ca9a5322ce24c08445b802f623
                         <li className="nav-item"><a className="nav-link" href="/about-us">About Us</a></li>
                         <li className="nav-item"><a className="nav-link" href="/about-us">Services</a></li>
                         <li className="nav-item"><a className="nav-link" href="/contact-us">Contact</a></li>
